@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 👋 I am XiaoXueSheng
 
 <!--
 **xxs588/xxs588** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,4 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=xxs588)](https://github.com/anuraghazra/github-readme-stats)
+<p align="center">
+<img align="center" width="400" src="https://github-readme-stats.vercel.app/api?username=xxs588&theme=transparent&show_icons=true&hide_border=true&show=reviews&hide_title=true&hide=contribs" />
+<img align="center" width="400" src="https://streak-stats.demolab.com?user=xxs588&theme=transparent&hide_border=true" />
+
+<img src="./assets/profile-3d/profile-night-rainbow.svg" alt="3D GitHub Stats" width="100%"/>
+
+<img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=xxs588&theme=transparent&hide_border=true&layout=compact&langs_count=22" />
+
+
+</p>
