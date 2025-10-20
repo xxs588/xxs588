@@ -20,14 +20,23 @@ Here are some ideas to get you started:
 <br>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=25&pause=1000&center=true&vCenter=true&random=false&width=600&lines=Welcome+to+xxs%27s+GitHub+profile+page!" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=25&pause=1000&center=true&vCenter=true&random=false&width=600&lines=Welcome+to+xxs%27s+GitHub+profile+page!" alt="Welcome typing animation" />
 </p>
 
 <p align="center">
 <!-- https://github.com/anuraghazra/github-readme-stats -->
-<img align="center" width="400" src="https://github-readme-stats.vercel.app/api?username=xxs588&theme=transparent&show_icons=true&hide_border=true&show=reviews&hide_title=true&hide=contribs" />
+<img align="center" width="400" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=xxs588&show_icons=true&hide_border=true&theme=transparent" />
 <!-- https://github.com/DenverCoder1/github-readme-streak-stats -->
-<img align="center" width="400" src="https://streak-stats.demolab.com?user=xxs588&theme=transparent&hide_border=true" />
+<img align="center" width="400" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=xxs588&hide_border=true&theme=transparent" />
+<br />
+<!-- https://github.com/anuraghazra/github-readme-stats (Top Languages) -->
+<img align="center" width="400" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xxs588&layout=compact&langs_count=8&hide_border=true&theme=transparent" />
+</p>
+
+<p align="center"><strong>技术栈 / 正在学习</strong></p>
+<p align="center">
+  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+</p>
 
 <div align="center" style="display: flex; justify-content: center; width: 100%;">
   <img 
