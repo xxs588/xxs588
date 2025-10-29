@@ -30,7 +30,7 @@ Here are some ideas to get you started:
 <img align="center" width="400" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=xxs588&hide_border=true&theme=transparent" />
 <br />
 <!-- https://github.com/anuraghazra/github-readme-stats (Top Languages) -->
-<img align="center" width="400" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xxs588&layout=compact&langs_count=8&hide_border=true&theme=transparent" />
+<img align="center" width="400" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xxs588&layout=compact&langs_count=8&hide_border=true&theme=transparent&cache_bust=2" />
 </p>
 
 <p align="center"><strong>技术栈 / 正在学习</strong></p>
