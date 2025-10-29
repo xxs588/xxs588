@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 
 <p align="center">
 <!-- https://github.com/anuraghazra/github-readme-stats -->
-<img align="center" width="400" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=xxs588&show_icons=true&hide_border=true&theme=transparent" />
+<img align="center" width="400" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=xxs588&show_icons=true&hide_border=true&theme=transparent&cache_bust=1" />
 <!-- https://github.com/DenverCoder1/github-readme-streak-stats -->
 <img align="center" width="400" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=xxs588&hide_border=true&theme=transparent" />
 <br />
