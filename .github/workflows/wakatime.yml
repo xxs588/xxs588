@@ -1,0 +1,35 @@
+name: WakaTime Readme
+
+on:
+  # 每天运行一次 (凌晨 0 点 30 分)
+  schedule:
+    - cron: '30 0 * * *'
+  # 允许手动触发运行
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update WakaTime Readme
+    runs-on: ubuntu-latest
+    
+    # 授予工作流写入权限，以便它可以提交生成的统计文件
+    permissions:
+      contents: write
+      
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          # VVVV 必填项：这是你的 API Key 密钥名称
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          
+          # VVVV 必填项：替换为你的 WakaTime 用户名 (通常与 GitHub 用户名相同)
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+          # 可选项：用于设置生成的统计文件的路径和文件名
+          COMMIT_BY_ME: "true" 
+          COMMIT_MSG: "📊 Update WakaTime Stats"
+          
+          # 可选项：用于定制统计图表的样式
+          SHOW_OS: "false" # 不显示使用的操作系统
+          SHOW_COMMIT: "false" # 不显示 commit 信息
+          SHOW_LOC: "true" # 显示代码行数 (Lines of Code)
