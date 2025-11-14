@@ -1,20 +1,7 @@
 ## Hi there 👋 I am XiaoXueSheng
 
-<!--
-**xxs588/xxs588** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<br> <p align="center">
+<br> 
+<p align="center">
 <img src="https://c-ssl.duitang.com/uploads/blog/202202/21/20220221083812_5362a.jpg" alt="Banner Image" width="800" />
 </p>
 <br>
@@ -24,12 +11,11 @@ Here are some ideas to get you started:
 </p>
 
 <p align="center">
-<!-- https://github.com/anuraghazra/github-readme-stats -->
 <img align="center" width="400" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=xxs588&show_icons=true&hide_border=true&theme=transparent&cache_bust=1" />
-<!-- https://github.com/DenverCoder1/github-readme-streak-stats -->
 <img align="center" width="400" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=xxs588&hide_border=true&theme=transparent" />
-<br />
-<!-- https://github.com/anuraghazra/github-readme-stats (Top Languages) -->
+</p>
+
+<p align="center">
 <img align="center" width="450" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xxs588&layout=compact&langs_count=10&hide_border=true&theme=transparent&cache_bust=10" />
 </p>
 
@@ -38,26 +24,24 @@ Here are some ideas to get you started:
 </p>
 
 <p align="center">
-  <p align="center">
-    <strong>技术栈 / 正在学习</strong>
+  <strong>技术栈 / 正在学习</strong>
 </p>
 <p align="center">
-    <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />    
-    
-<br />
-    
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-   <p align="center">
+    <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />    
+    <br />
+    <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
     <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
-</p>
+
+---
 
 ### 💻 My Coding Activity (WakaTime)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/xxs588/xxs588/main/dist/github-contribution-grid-snake.svg" alt="GitHub Snake" />
 </p>
+
 <div align="center" style="display: flex; justify-content: center; width: 100%;">
   <img 
     src="https://tse4-mm.cn.bing.net/th/id/OIP-C.r73Xn1UyFU8EDPx5ZdPUywHaKh?w=178&h=254&c=7&r=0&o=7&dpr=1.8&pid=1.7&rm=3" 
