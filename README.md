@@ -34,6 +34,10 @@ Here are some ideas to get you started:
 </p>
 
 <p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=xxs588&column=6&row=1&theme=dracula" alt="GitHub Trophies" />
+</p>
+
+<p align="center">
   <p align="center">
     <strong>技术栈 / 正在学习</strong>
 </p>
