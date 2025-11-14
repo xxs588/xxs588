@@ -2,16 +2,19 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天运行一次
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    # VVVV 关键：在此处添加写入权限 VVVV
+    permissions:
+      contents: write 
+    # ^^^^ 关键：在此处添加写入权限 ^^^^
     steps:
       - uses: actions/checkout@v4
         with:
-          # 这一行是关键：获取完整历史记录，以便能推送
           fetch-depth: 0 
           
       - uses: Platane/snk@v3
@@ -22,13 +25,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # VVVV 关键步骤：使用专门的 Action 来提交文件 VVVV
-      - name: Commit & Push files
-        uses: actions-js/push@master
+      # 由于 actions-js/push 失败了，我们回到更稳定的 stefanzweifel/git-auto-commit-action@v5
+      - name: Commit files
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-          message: "🐍 Generate Snake Animation"
-          # 只提交 dist 文件夹下的文件
-          force: true
-          directory: dist/
+          commit_message: "🐍 Generated Snake Animation"
+          file_pattern: 'dist/github-contribution-grid-snake.svg'
