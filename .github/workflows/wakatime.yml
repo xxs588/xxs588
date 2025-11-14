@@ -19,17 +19,17 @@ jobs:
     steps:
       - uses: athul/waka-readme@master
         with:
-          # VVVV 必填项：这是你的 API Key 密钥名称
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          
-          # VVVV 必填项：替换为你的 WakaTime 用户名 (通常与 GitHub 用户名相同)
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-          # 可选项：用于设置生成的统计文件的路径和文件名
-          COMMIT_BY_ME: "true" 
-          COMMIT_MSG: "📊 Update WakaTime Stats"
+          # VVVV 关键修改：启用卡片样式并显示语言/时长 VVVV
+          SHOW_OS: "false" 
+          SHOW_COMMIT: "false" 
+          SHOW_LOC: "true"
           
-          # 可选项：用于定制统计图表的样式
-          SHOW_OS: "false" # 不显示使用的操作系统
-          SHOW_COMMIT: "false" # 不显示 commit 信息
+          # 启用卡片布局
+          BLOCKS: "languages,time,editors,projects" 
+          # 更改配色方案 (可选)
+          CODE_LANG: "javascript" 
+          # VVVV 关键修改：启用卡片样式并显示语言/时长 VVVV
           SHOW_LOC: "true" # 显示代码行数 (Lines of Code)
