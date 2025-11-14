@@ -30,12 +30,26 @@ Here are some ideas to get you started:
 <img align="center" width="400" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=xxs588&hide_border=true&theme=transparent" />
 <br />
 <!-- https://github.com/anuraghazra/github-readme-stats (Top Languages) -->
-<img align="center" width="400" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xxs588&layout=compact&langs_count=8&hide_border=true&theme=transparent&cache_bust=2" />
+<img align="center" width="450" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xxs588&layout=compact&langs_count=10&hide_border=true&theme=transparent&cache_bust=10" />
 </p>
 
 <p align="center"><strong>技术栈 / 正在学习</strong></p>
 <p align="center">
-  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <p align="center">
+    <strong>技术栈 / 正在学习</strong>
+</p>
+<p align="center">
+    <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+    <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+    
+<br />
+    
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+    <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+    <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+</p>
 </p>
 
 <div align="center" style="display: flex; justify-content: center; width: 100%;">
