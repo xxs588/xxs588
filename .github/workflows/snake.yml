@@ -10,11 +10,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # 这一行是关键：获取完整历史记录，以便能推送
+          fetch-depth: 0 
+          
       - uses: Platane/snk@v3
         with:
-          github_user_name: xxs588 # 替换为你的用户名
+          github_user_name: xxs588
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # VVVV 关键步骤：使用专门的 Action 来提交文件 VVVV
+      - name: Commit & Push files
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
+          message: "🐍 Generate Snake Animation"
+          # 只提交 dist 文件夹下的文件
+          force: true
+          directory: dist/
