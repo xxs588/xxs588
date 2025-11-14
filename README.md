@@ -52,13 +52,14 @@ Here are some ideas to get you started:
 </p>
 </p>
 ### 💻 My Coding Activity (WakaTime)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/xxs588/xxs588/main/dist/github-contribution-grid-snake.svg" alt="GitHub Snake" />
 </p>
 
 <div align="center" style="display: flex; justify-content: center; width: 100%;">
   <img 
-     src="https://tse4-mm.cn.bing.net/th/id/OIP-C.r73Xn1UyFU8EDPx5ZdPUywHaKh?w=178&h=254&c=7&r=0&o=7&dpr=1.8&pid=1.7&rm=3" 
+    src="https://tse4-mm.cn.bing.net/th/id/OIP-C.r73Xn1UyFU8EDPx5ZdPUywHaKh?w=178&h=254&c=7&r=0&o=7&dpr=1.8&pid=1.7&rm=3" 
     alt="户外角色" 
     style="width: 45%; height: 550px; object-fit: cover; margin: 0 10px;"
   />
