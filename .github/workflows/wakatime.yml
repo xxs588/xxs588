@@ -22,14 +22,17 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
-          # VVVV 关键修改：启用卡片样式并显示语言/时长 VVVV
-          SHOW_OS: "false" 
-          SHOW_COMMIT: "false" 
-          SHOW_LOC: "true"
+          # VVVV 关键修改：使用更稳定的配置来生成语言卡片 VVVV
+          SECTION_NAME: "waka" # 确保与 README.md 中的 START/END_SECTION 名称匹配
           
-          # 启用卡片布局
-          BLOCKS: "languages,time,editors,projects" 
-          # 更改配色方案 (可选)
-          CODE_LANG: "javascript" 
-          # VVVV 关键修改：启用卡片样式并显示语言/时长 VVVV
-          SHOW_LOC: "true" # 显示代码行数 (Lines of Code)
+          # 设置显示的项目，启用语言、时间、编辑器等
+          SHOW_TOTAL: "true"
+          SHOW_LANGUAGE: "true"
+          SHOW_TIME: "true"
+          SHOW_EDITORS: "true"
+          SHOW_COMMIT: "false"
+          SHOW_OS: "false"
+          
+          # 可选：设置你的 WakaTime 语言卡片的主题
+          LANG_CARD_THEME: "github" # 也可以是 "dracula", "dark" 等
+          # ^^^^ 关键修改 ^^^^
