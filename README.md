@@ -51,6 +51,7 @@ Here are some ideas to get you started:
     <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
 </p>
+### 💻 My Coding Activity (WakaTime)
 <p align="center">
   <img src="https://raw.githubusercontent.com/xxs588/xxs588/main/dist/github-contribution-grid-snake.svg" alt="GitHub Snake" />
 </p>
