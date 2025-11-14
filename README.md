@@ -52,7 +52,7 @@ Here are some ideas to get you started:
 </p>
 </p>
 <p align="center">
-  <img src="./dist/github-contribution-grid-snake.svg" alt="GitHub Snake" />
+  <img src="https://raw.githubusercontent.com/xxs588/xxs588/main/dist/github-contribution-grid-snake.svg" alt="GitHub Snake" />
 </p>
 
 <div align="center" style="display: flex; justify-content: center; width: 100%;">
