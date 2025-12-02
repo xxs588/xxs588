@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-<img align="center" width="400" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=xxs588&show_icons=true&hide_border=true&theme=dracula&cache_bust=123" />
-<img align="center" width="400" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=xxs588&hide_border=true&theme=dracula&cache_bust=123" />
+<img align="center" width="400" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=xxs588&show_icons=true&hide_border=true&theme=dracula&cache_bust=789123" />
+<img align="center" width="400" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=xxs588&hide_border=true&theme=dracula&cache_bust=789123" />
 </p>
 
 <p align="center">
