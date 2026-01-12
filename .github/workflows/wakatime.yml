@@ -1,19 +1,18 @@
-name: WakaTime Readme Stats
+name: WakaTime Stats
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
 jobs:
-  update-readme:
+  update:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
       - uses: actions/checkout@v4
-      - uses: athul/waka-readme@v1
+      - name: Generate WakaTime Stats
+        uses: jclapis/waka-box@v0.4.0
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_OS: true
-          SHOW_EDITORS: true
           SHOW_PROJECTS: false
-          SHOW_LINES: true
-          SHOW_TIME: true
+          SHOW_EDITORS: true
+          SHOW_OS: true
