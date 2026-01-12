@@ -1,37 +1,31 @@
-name: WakaTime Stats
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+name: WakaTime Readme Stats
+
+"on":
+    # 每天自动更新（UTC 时间 0 点，对应北京时间 8 点）
+    schedule:
+        - cron: "0 0 * * *"
+    # 手动触发更新（可选，方便测试）
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
 jobs:
-  update:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - name: Fetch WakaTime Data
-        run: |
-          curl -H "Authorization: Basic $(echo -n ${{ secrets.WAKATIME_API_KEY }} | base64)" \
-            "https://wakatime.com/api/v1/users/current/stats/last_7_days" > waka.json
-      - name: Generate Stats Card
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const data = require('./waka.json');
-            const stats = `## 🕒 Coding Stats
-            ${Object.entries(data.data.languages).map(lang => `- ${lang[0]}: ${lang[1].text}`).join('\n')}
-            Total: ${data.data.human_readable_total}`;
-            const readme = await fs.readFile('README.md', 'utf8');
-            const newReadme = readme.replace(
-              /<!--START_SECTION:waka-->([\s\S]*)<!--END_SECTION:waka-->/,
-              `<!--START_SECTION:waka-->\n${stats}\n<!--END_SECTION:waka-->`
-            );
-            await fs.writeFile('README.md', newReadme);
-      - name: Commit Changes
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add README.md
-          git commit -m "Update WakaTime stats" || echo "No changes to commit"
-          git push
+    update-readme:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Repository
+              uses: actions/checkout@v4
+
+            - name: Update WakaTime Stats
+              uses: athul/waka-readme@v0.3.1
+              with:
+                  WAKATIME_API_KEY: "${{ secrets.WAKATIME_API_KEY }}"
+                  GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+                  # 显示最近 7 天统计（可改为 last_30_days / last_year / all_time 等）
+                  TIME_RANGE: all_time
+                  LANG_COUNT: 5
+                  SHOW_TIME: true
+                  STOP_AT_OTHER: true
+                  # 进度条字符样式（块状）
+                  BLOCKS: ░▒▓█
