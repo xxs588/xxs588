@@ -31,20 +31,9 @@
 </p>
 
 
-
-<p align="center">
-
-<img align="center" width="450" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xxs588&layout=compact&langs_count=10&hide_border=true&theme=transparent&cache_bust=10" />
-
-</p>
-
-
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=xxs588&column=6&row=1&theme=dracula" alt="GitHub Trophies" />
-
-</p>
+## 🕒 我的代码时长统计
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 
 
