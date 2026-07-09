@@ -25,6 +25,7 @@ jobs:
                   # 显示最近 7 天统计（可改为 last_30_days / last_year / all_time 等）
                   TIME_RANGE: all_time
                   LANG_COUNT: 5
+                  SHOW_EDITORS: true
                   SHOW_TIME: true
                   STOP_AT_OTHER: true
                   # 进度条字符样式（块状）
